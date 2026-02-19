@@ -995,3 +995,54 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   border-radius: 24px;
   box-shadow: 0 20px 50px rgba(13, 38, 76, 0.15);
 }
+/* ---- ABOUT CARD RESPONSIVE ---- */
+@media (max-width: 768px) {
+  .about-card {
+    height: auto;
+    padding: 20px;
+  }
+
+  .about-img-placeholder {
+    height: 260px;
+  }
+
+  .about-image img {
+    height: 260px;
+  }
+
+  .about-badge {
+    bottom: 16px;
+    right: 16px;
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-card {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .about-img-placeholder {
+    height: 200px;
+    border-radius: 12px;
+  }
+
+  .about-image img {
+    height: 200px;
+    border-radius: 16px;
+  }
+
+  .about-badge {
+    bottom: 12px;
+    right: 12px;
+    font-size: 11px;
+    padding: 6px 12px;
+    gap: 6px;
+  }
+
+  .about-badge span {
+    font-size: 14px;
+  }
+}
